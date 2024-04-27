@@ -27,7 +27,7 @@ public class App {
                 leer.nextLine();
                 continue;
 
-             //a esta parte dentro del catch le agregue la condicion de que si los numero esran iguales diera un mensaje indicando que ellos tenian que ser diferentes
+             //a esta parte dentro del catch le agregue la condicion de que si los numero eran iguales diera un mensaje indicando que ellos tenian que ser diferentes
 
             }   if (num1 == num2 || num1 == num3 || num2 == num3) {
                 System.out.println("Los numeros deben de ser difetentes");
@@ -61,8 +61,8 @@ public class App {
     
        //diferencia o resta de los numeros con mayor valor, para eso se definieron 3 variables como entero
        //la primera variable llamada"diferencia", la segunda "maximo1" y la tercera "maximo 2"
-       //para realizar esta poeracion hice uso de la clase Math.max esta me ayudo a localizar cuales de los valores ingresados era mayor
-       //luego serealizo la operación donde lo que se queria obtener era la diferencia por lo cual, diferencia= maximo1 - maximo2
+       //para realizar esta operacion hice uso de la clase Math.max esta me ayudo a localizar cuales de los valores ingresados era mayor
+       //luego se realizo la operación donde lo que se queria obtener era la diferencia por lo cual, diferencia = maximo1 - maximo2
 
         int diferencia;
 
